@@ -9,6 +9,7 @@ This project is designed to predict whether a given text in Nigerian Pidgin is a
 - `models/` - Directory for storing machine learning models.
 - `data/` - Directory for storing datasets.
 - `requirements.txt` - A file listing all the dependencies required for the project.
+- `images/` - Directory for storing images.
 
 ## Setup Instructions
 
