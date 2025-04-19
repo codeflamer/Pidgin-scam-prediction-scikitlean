@@ -11,8 +11,8 @@ def predict_scam(text):
         return "Error: Model not loaded"
     response = new_model.predict([text])
     if response == 1:
-        return "Omo them wan scam you o"
-    return "Chillax everywhere cool"
+        return "This is Likely to be a scam message"
+    return "This is a harmless message"
 
 # Create the interface
 with gr.Blocks() as iface:
@@ -30,7 +30,6 @@ with gr.Blocks() as iface:
 iface.css = """
     .item-center{
         text-align:center;
-        color:red;
     }
 """
 
